@@ -1,3 +1,5 @@
+/*All Around Styling*/
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -10,4 +12,96 @@ body{
     line-height: 1.5;
     color: #f9faf8;
     background-color: #1f2937;
+}
+
+img{
+    max-width: 100%;
+}
+
+h1,h2{
+    margin-bottom: 15px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.container, .boxes .boxheader{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+/*Navbar Section*/
+
+.navbar{
+    height: 80px;
+}
+
+.navbar .logo{
+    font-size: 24px;
+}
+
+.navbar a{
+    color: #E5E7EB;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    color:#3882f6;
+}
+.navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar ul li{
+    margin-left: 20px;
+}
+
+/*Header Section*/
+
+.header{
+    min-height: 400px;
+    margin-top: 30px;
+}
+
+.header h1{
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-right: 30px;
+}
+
+.header img{
+    max-width: 450px;
+    margin-left: 20px;
+}
+
+.header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header button{
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 8px;
+    margin-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.boxes .container{
+   display: flex;
+
 }
